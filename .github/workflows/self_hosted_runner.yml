@@ -1,0 +1,15 @@
+name: Workflow for Self Hosted
+run-name: Self Hosted Runner workflow
+on:
+ workflow_dispatch:
+
+jobs:
+  test-build:
+   runs-on: self-hosted-linux
+   steps:
+   - name: simple test for workflow
+     run: |
+      echo "this is line1"
+      echo "this is line2"
+
+ 
