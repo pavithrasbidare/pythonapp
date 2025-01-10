@@ -5,7 +5,7 @@ on:
 
 jobs:
   test-build:
-   runs-on: self-hosted-linux
+   runs-on: self-hosted
    steps:
    - name: simple test for workflow
      run: |
