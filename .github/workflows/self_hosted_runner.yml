@@ -1,7 +1,7 @@
 name: Workflow for Self Hosted
 run-name: Self Hosted Runner workflow
 on:
- Workflow_dipatch:
+ workflow_dispatch:
 
 jobs:
   test-build:
